@@ -2,6 +2,32 @@
 <html lang="en">
   <head>
     <title>Dmitriy Akulov</title>
+	<meta property="og:site_name" content="Dmitriy Akulov" />
+	<meta property="og:title" content="Dmitriy Akulov" />
+	<meta property="og:description" content="Hi, I am the founder of many tech companies and projects and I enjoy building complex technical services." />
+	<meta property="og:url" content="https://dakulov.com/" />
+	<link rel="canonical" href="https://dakulov.com/" />
+	<script type="application/ld+json">
+	{
+	"@context": "http://www.schema.org",
+	"@type": "Person",
+	"name": "Dmitriy Akulov",
+	"alternateName": "Dmytro Akulov",
+	"gender": "Male",
+	"Description": "Entrepreneur",
+	"disambiguatingDescription": "Entrepreneur, tech guy, investor",
+	"url": "https://dakulov.com/",
+	"image": "https://dakulov.com/img/dmitriy-akulov-dmytro.jpg",
+	"sameAs": [
+		"https://twitter.com/jimaek",
+		"https://instagram.com/dmitriy.gr.pl",
+		"https://www.linkedin.com/in/dakulov/",
+		"https://github.com/jimaek",
+		"https://angel.co/jimaek"
+		]
+	}
+	</script>
+	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
@@ -16,30 +42,31 @@
         <h1 class="mb-0">Dmitriy Akulov</h1>
 		 <p class="lead mb-3">aka Dmytro Akulov</p>
         <div class="mb-5">
-        <p class="lead mb-3">Enterpreuner</p>
+        <p class="lead mb-3">Entrepreneur - <span id="lblage"></span> years old</p>
         <p>Hi, I am the founder of many tech companies and projects and I enjoy building complex technical services.</p>
-		<p>I also speak fluent English, Greek, Russian and Polish</p>
+		<p>I also speak fluent English, Greek, Russian and soon Polish</p>
 		
 		<p><b>Always looking for cool projects and ideas to build/invest/join!</b></p>
         
 		<p>
-          <a href="https://www.linkedin.com/in/dakulov/" class="mr-2 mb-2">LinkedIn - PM me here</a>
+          <a href="https://www.linkedin.com/in/dakulov/" class="mr-2 mb-2">LinkedIn</a>
 		  <a href="https://twitter.com/jimaek" class="mr-2 mb-2">Twitter</a>
           <a href="https://www.instagram.com/dmitriy.gr.pl" class="mr-2 mb-2">Instagram</a> 
+		  <a href="#">dak@prospectone.io</a>
        </p>
 		</div>
-		<h2>Experience and Milestones summary</h2>
+		<h2>Experience and milestones summary</h2>
 		<ul>
 			<li>Raised $1.25million from 2 VCs in Europe</li>
-			<li>Built infrascture that serves 100+ billion HTTP and DNS queries per month</li>
-			<li>Built large development teams of different expertise to develop large and complex services</li>
+			<li>Built infrastructure that serves 100+ billion HTTP and DNS queries per month</li>
+			<li>Built large development teams of different expertise to develop complex services</li>
 			<li>Expert in the CDN, DNS and Cloud industries</li>
 			<li>Developing many free and open source projects</li>
 		</ul>
 
 	   <br/>
-        <h1 class="mb-5">Projects and Companies I have built</h1>
-     
+        <h2>My notable companies and projects</h2>
+     <br/>
         <div class="mb-5">
           <ul class="resume-list">
             <li>
@@ -51,50 +78,48 @@
 				 <li>Network tests allowing to run benchmarks on demand from 260+ global locations</li>
 				 <li>A smart global load balancer that can use the analytics data and any external data to make decisions in real-time for each individual request. Effectively automatting Multi-CDN and Multi-Cloud deployments.</li>
 				 <li>Load balancer allows logic to be written in javascript for full flexibility when building your custom routing</li>
+				 <li>Raised 2 rounds from 2 VCs from the UK and Germany</li>
+				 <li>Backend using anycast in multiple global locations</li>
 			  </ul>
             </li>
             <li>
-              <h3>jsDelivr</h3>
+              <h3><a href="https://www.jsdelivr.com">jsDelivr</a></h3>
               <p class="date">Free and open source</p>
               <ul>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
+				 <li>Serving 70+ billion HTTP queries every month</li>
+				 <li>Wikipedia <a href="https://en.wikipedia.org/wiki/JSDelivr">https://en.wikipedia.org/wiki/JSDelivr</a></li>
+				 <li>Used by millions of websites in production</li>
+				 <li>Built v1 at 16 years old</li>
 			  </ul>
             </li>
 
             <li>
-              <h3>Prospect One</h3>
-              <p class="date">Nov 2015 - Jan 2016</p>
+              <h3><a href="https://prospectone.io">Prospect One</a></h3>
+              <p class="date">Consulting</p>
               <ul>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-			  </ul>
-            </li>
-            <li>
-              <h3>Many others</h3>
-              <p class="date">Feb 2013 - Nov 2015</p>
-              <ul>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
-				 <li></li>
+				 <li>Legal entity for business activities</li>
+				 <li>Building interesting and cool stuff</li>
+				 <li>Helping open source projects for free</li>
+				 <li>Designed the official logo of Bash shell</li>
+				 <li>Working with top tech companies</li>
+				 <li>Offering consulting services and building stuff for clients</li>
 			  </ul>
             </li>
           </ul>
-        </div>    
-        
+        </div>
       </main>
     </div>
-
   </body>
+ <script>
+window.onload = function () {
+    var today = new Date();
+    var birthDate = new Date(Date.parse("07/16/1993", "MM/dd/yyyy"));
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    document.getElementById("lblage").innerHTML = age;
+};
+ </script>
 </html>
