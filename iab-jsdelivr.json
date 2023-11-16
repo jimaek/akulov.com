@@ -1,0 +1,10 @@
+{
+  "disclosures": [
+  ],
+  "domains": [
+    {
+      "domain": "cdn.jsdelivr.net",
+      "use": "Static file delivery. No cookie domain."
+    }
+  ]
+}
